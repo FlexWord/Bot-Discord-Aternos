@@ -13,10 +13,10 @@ with open('credentials.json') as file:
 	data = json.load(file)
 
 # Credenciales para Discord y Aternos
-secret_key = data["credentials"]["discord_bot"]
-user = data["credentials"]["aternos_user"]
-pswd = data["credentials"]["aternos_pwsd"]
-channel_id = data["credentials"]["discord_channel"]
+secret_key = data["credentials"]["MTE3Njk4MTU0NzYzNTcwNzk4NQ.GjE7wM.W2y7iLVNt4Pefl5RLujpWE93kryOp-RQD2moxo"]
+user = data["credentials"]["Flex_100"]
+pswd = data["credentials"]["aa280807"]
+channel_id = data["credentials"]["1176985821132370100"]
 srv_ws = data["credentials"]["n_servidor"]
 
 # Para websocket
